@@ -12,3 +12,9 @@ class SingletonObject(object):
         if not SingletonObject.instance:
             SingletonObject.instance = SingletonObject.__SingletoneObject()
         return SingletonObject.instance
+
+    def __getattr__(self, name):
+        return getattr(self.instance, name)
+
+    def __setattr__(self, name):
+        return setattr(self.instance, name)
