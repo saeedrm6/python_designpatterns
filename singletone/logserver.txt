@@ -1,0 +1,15 @@
+log message.!
+log message.!
+error at line 45
+error at line 45
+log message : 0
+log message : 1
+log message : 2
+log message : 3
+[ERROR] error at line 4
+[0] give these datas!
+[0] TEST
+[INFO] TEST
+[INFO] TEST info
+[DEBUG] TEST debug
+[ERROR] TEST
